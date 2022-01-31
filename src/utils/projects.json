@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Marvelisms",
+        "Description": "A Marvel database for fans to learn more and test their knowledge."
+    },
+    {
+        "Name": "TripShare",
+        "Description": "A Travel Blog."
+    },
+    {
+        "Name": "MVC Tech Blog",
+        "Description": "A Tech Blog."
+    },
+    {
+        "Name": "Placeholder 1",
+        "Description": "Lorem ipsum."
+    },
+    {
+        "Name": "Placeholder 2",
+        "Description": "Lorem ipsum."
+    },
+    {
+        "Name": "Placeholder 3",
+        "Description": "Lorem ipsum."
+    }
+]
