@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Work+Sans:300&display=swap");
+
+:root {
+  --accent: #cb7f2f;
+  --light: #ffffff;
+  --lightText: #97a0be;
+  --dark: #375356;
+  --overlayStart: rgba(55, 84, 86, 0.9);
+  --overlayEnd: rgba(55, 84, 86, 0.7);
+  --ease: all 0.3s ease 0s;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  color: var(--lightText) !important;
+}
+.navbar {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  height: 3rem;
+  margin: 1rem !important;
+}
+.nav-link {
+  color: var(--lightText) !important;
+}
+
+.nav-link:hover {
+  background-color: var(--accent);
+  border-radius: 2rem;
+}
