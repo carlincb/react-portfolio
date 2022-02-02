@@ -1,7 +1,7 @@
 [
     {
         "Name": "Marvelisms",
-        "Description": "A Marvel database for fans to learn more and test their knowledge."
+        "Description": "A database for users to learn more about the Marvel Universe"
     },
     {
         "Name": "TripShare",
@@ -12,15 +12,15 @@
         "Description": "A Tech Blog."
     },
     {
-        "Name": "Placeholder 1",
-        "Description": "Lorem ipsum."
+        "Name": "Work Day Scheduler",
+        "Description": "A calendar application for the work day"
     },
     {
-        "Name": "Placeholder 2",
-        "Description": "Lorem ipsum."
+        "Name": "Weather Dashboard",
+        "Description": "An application for predicting the weather in multiple cities."
     },
     {
-        "Name": "Placeholder 3",
-        "Description": "Lorem ipsum."
+        "Name": "Password Generator",
+        "Description": "An application for creating random passwords."
     }
 ]
