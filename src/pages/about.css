@@ -1,0 +1,47 @@
+:root {
+  --accent: #cb7f2f;
+  --light: #ffffff;
+  --lightText: #97a0be;
+  --dark: #375356;
+  --overlayStart: rgba(55, 84, 86, 0.9);
+  --navBar: rgb(55, 84, 86);
+  --overlayEnd: rgba(55, 84, 86, 0.7);
+  --ease: all 0.3s ease 0s;
+}
+body {
+  background-color: white;
+}
+.about {
+  margin-top: 10vh;
+  background-color: white;
+  padding: 2rem;
+  font-size: 3rem;
+}
+.about h1 {
+  color: var(--accent);
+  font-weight: bold;
+}
+.text-block {
+  overflow: hidden;
+  height: 4rem;
+}
+.text-wrapper {
+  animation: move 8s ease-in-out infinite alternate;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}

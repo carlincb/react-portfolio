@@ -6,10 +6,13 @@
   --lightText: #97a0be;
   --dark: #375356;
   --overlayStart: rgba(55, 84, 86, 0.9);
+  --navBar: rgb(55, 84, 86);
   --overlayEnd: rgba(55, 84, 86, 0.7);
   --ease: all 0.3s ease 0s;
 }
-
+nav {
+  background-color: transparent;
+}
 .navbar-brand {
   font-size: 2.5rem;
   color: var(--lightText) !important;
@@ -25,6 +28,5 @@
 }
 
 .nav-link:hover {
-  background-color: var(--accent);
-  border-radius: 2rem;
+  color: var(--accent) !important;
 }
