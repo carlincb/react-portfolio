@@ -1,3 +1,4 @@
+import React from 'react';
 import Project from '../components/project/Project';
 import projectsJson from '../utils/projects.json';
 

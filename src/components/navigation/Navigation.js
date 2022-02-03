@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navigation() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light fixed-top py-5"
+      className="navbar navbar-expand-lg navbar-light fixed-top py-3"
       id="mainNav"
     >
       <div className="container px-4 px-lg-5">

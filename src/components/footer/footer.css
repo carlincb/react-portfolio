@@ -1,0 +1,22 @@
+:root {
+  --accent: #cb7f2f;
+  --light: #ffffff;
+  --lightText: #97a0be;
+  --dark: #375356;
+  --overlayStart: rgba(55, 84, 86, 0.9);
+  --navBar: rgb(55, 84, 86);
+  --overlayEnd: rgba(55, 84, 86, 0.7);
+  --ease: all 0.3s ease 0s;
+}
+.footer {
+  margin: 1rem;
+}
+
+.list-inline-item {
+  justify-content: center;
+  padding: 1rem;
+  width: 10vw;
+}
+.contact_child2 {
+  width: 3rem;
+}

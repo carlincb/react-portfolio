@@ -8,11 +8,9 @@
   --overlayEnd: rgba(55, 84, 86, 0.7);
   --ease: all 0.3s ease 0s;
 }
-body {
-  background-color: white;
-}
+
 .about {
-  margin-top: 10vh;
+  margin-top: 8vh;
   background-color: white;
   padding: 2rem;
   font-size: 3rem;
@@ -29,6 +27,10 @@ body {
   animation: move 8s ease-in-out infinite alternate;
   height: 100%;
   text-transform: uppercase;
+}
+.about p,
+.about img {
+  padding: 4rem !important;
 }
 
 @keyframes move {

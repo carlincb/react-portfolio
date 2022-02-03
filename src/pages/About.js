@@ -1,3 +1,4 @@
+import React from 'react';
 import profileImg from "../images/coding2.jpg";
 import "./about.css";
 
