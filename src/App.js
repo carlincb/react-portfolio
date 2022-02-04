@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Portfolio from './pages/portfolio/Portfolio';
+import About from './pages/about/About';
+import Contact from './pages/contact/Contact';
+import Resume from './pages/resume/Resume';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 

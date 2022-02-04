@@ -1,5 +1,5 @@
 import React from 'react';
-import codingImg from "../images/coding1.jpg";
+import codingImg from "../../images/coding1.jpg";
 import "./contact.css"
 
 function Contact() {
