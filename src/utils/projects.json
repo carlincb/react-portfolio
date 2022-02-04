@@ -1,26 +1,44 @@
 [
     {
         "Name": "Marvelisms",
+        "Image": "https://drive.google.com/file/d/1Moam1Lt3ruPoGL6Y2cqPf0jeTExt0ueD/view?usp=sharing",
+        "GitHub": "https://github.com/carlincb/Marvelisms",
+        "Live": "https://carlincb.github.io/Marvelisms/",
         "Description": "A database for users to learn more about the Marvel Universe"
     },
     {
         "Name": "TripShare",
+        "Image": "https://drive.google.com/file/d/18sYvIxMO6fL90P2_EU3DhHuUZ1Knro6G/view?usp=sharing",
+        "GitHub": "https://github.com/carlincb/TripShare",
+        "Live": "https://blooming-ridge-32748.herokuapp.com/",
         "Description": "A Travel Blog."
     },
     {
         "Name": "MVC Tech Blog",
+        "Image": "https://drive.google.com/file/d/1zDptZ9QYnUOG8uckvABnWYnEL5-MIE1M/view?usp=sharing",
+        "GitHub": "https://github.com/carlincb/MVC-Tech-Blog",
+        "Live": "https://fast-garden-22281.herokuapp.com/",
         "Description": "A Tech Blog."
     },
     {
         "Name": "Work Day Scheduler",
+        "Image": "https://drive.google.com/file/d/1mcfQBCV3P6dRiwAviaZbt8aT6VpMjrcZ/view?usp=sharing",
+        "GitHub": "https://github.com/carlincb/Work_Day_Scheduler",
+        "Live": "https://carlincb.github.io/Work_Day_Scheduler/",
         "Description": "A calendar application for the work day"
     },
     {
         "Name": "Weather Dashboard",
+        "Image": "https://drive.google.com/file/d/1ade0gM5HpITIbF2jbPo7tfEbNNciQCl8/view?usp=sharing",
+        "GitHub": "https://github.com/carlincb/Weather_Dashboard",
+        "Live": "https://carlincb.github.io/Weather_Dashboard/",
         "Description": "An application for predicting the weather in multiple cities."
     },
     {
         "Name": "Password Generator",
+        "Image": "https://drive.google.com/file/d/1K6l3ff2ULn7Bhnuvcp0FAcCYu-4iEN01/view?usp=sharing",
+        "GitHub": "https://github.com/carlincb/Password_Generator",
+        "Live": "https://carlincb.github.io/Password_Generator/",
         "Description": "An application for creating random passwords."
     }
 ]

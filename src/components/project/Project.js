@@ -1,9 +1,36 @@
-function Project({name, description}) {
-  return <div>
-  <h1>{ name }</h1>
-  <p>{ description }</p>
-  <br/>  
-  </div>;
+import React from 'react';
+import './project.css';
+
+function Project({name, description, github, live, image}) {
+  return (
+<div className="card-deck col-lg-3">
+  <div className="card">
+    <img className="card-img-top" src={image} alt="Project"/>
+    <div className="card-body">
+      <h5 className="card-title">{name}</h5>
+      <p className="card-text">{description}</p>
+    </div>
+    <div className="card-footer">
+    <a
+                  className="iconProject text-muted"
+                  href={github}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-github"></i>
+                </a>
+                <a
+                  className="iconProject text-muted"
+                  href={live}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fas fa-external-link-square-alt"></i>
+                </a>
+    </div>
+  </div>
+</div>
+  );
 }
 
 export default Project;

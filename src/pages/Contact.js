@@ -24,24 +24,24 @@ function Contact() {
                     <div className="col-lg-8">
                         <form id="contactForm" >
                             <div className="form-floating mb-5">
-                                <input className="form-control" id="name" type="text" required />
+                                <input className="form-control h-50" id="name" type="text" required />
                                 <label for="name">Full name</label>
                             </div>
                             <div className="form-floating mb-5">
-                                <input className="form-control" id="email" type="email" required />
+                                <input className="form-control h-50" id="email" type="email" required />
                                 <label for="email">Email address</label>
                             </div>
                             <div className="form-floating mb-5">
-                                <input className="form-control" id="phone" type="tel" required/>
+                                <input className="form-control h-50" id="phone" type="tel" required/>
                                 <label for="phone">Phone number</label>
 
                             </div>
                             <div className="form-floating mb-5">
-                                <textarea className="form-control" id="message"  type="text" required></textarea>
+                                <textarea className="form-control h-100" id="message"  type="text" required></textarea>
                                 <label for="message">Message</label>
 
                             </div>
-                            <div className="d-grid"><button className="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                            <div className="d-grid"><button className="btn btn-xl text-white" id="submitButton" type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>

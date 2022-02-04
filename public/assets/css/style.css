@@ -18,7 +18,13 @@
 html {
   font-size: 62.5%;
 }
-
+.btn {
+  background-color: var(--accent);
+  border-radius: 2rem;
+}
+.btn:hover {
+  opacity: 0.5;
+}
 body {
   background-color: var(--dark);
 }
