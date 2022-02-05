@@ -48,9 +48,9 @@ function Resume() {
               <div>
                 <div className="resume-wrapper row profile-h2-wrapper">
                   <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
-                    <h2>Profile</h2>
+                    <h2 className="pt-1">Profile</h2>
                   </div>
-                  <div className="resume-section col-lg-3 w-80 end-0 p-3">
+                  <div className="resume-section col-lg-3 w-80 end-0 pt-0 pb-5">
                     <p className="enlarge">
                       Strong leader seeking a career in software development.
                       Experienced professional who strives to organize,
@@ -67,28 +67,28 @@ function Resume() {
 
                 <div className="resume-wrapper row skills-wrapper">
                   <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
-                    <h2 className="h2-wrapper">Skills</h2>
+                    <h2 className="h2-wrapper pt-4">Skills</h2>
                   </div>
                   <div className="resume-section col-lg-3 w-80 end-0">
                     <div className="skills">
-                      <h2 className="skills-color">Web Design</h2>
-                      <p>
+                      <h2 className="skills-color pt-4 text-center">Web Design</h2>
+                      <p className="text-center">
                         An eye for design! Looking for a sleek webpage-contact
                         me today!
                       </p>
                     </div>
 
                     <div className="skills">
-                      <h2 className="skills-color">Software Development</h2>
-                      <p>
+                      <h2 className="skills-color pt-4 text-center">Software Development</h2>
+                      <p className="text-center pr-4">
                         Trained across the Full MERN Stack. Always learning a
                         new technology!
                       </p>
                     </div>
 
                     <div className="skills">
-                      <h2 className="skills-color">Project Direction</h2>
-                      <p>
+                      <h2 className="skills-color pt-4 text-center">Project Direction</h2>
+                      <p className="text-center">
                         Proven ability to lead and manage a wide variety of
                         projects in team and independent situations.
                       </p>
@@ -98,9 +98,9 @@ function Resume() {
 
                 <div className="resume-wrapper row">
                   <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
-                    <h2 className="h2-wrapper">Technical</h2>
+                    <h2 className="h2-wrapper pt-4">Technical</h2>
                   </div>
-                  <div className="resume-section col-lg-3 w-80 end-0 technical-wrapper">
+                  <div className="resume-section col-lg-3 w-80 end-0 technical-wrapper pt-4">
                     <ul className="skills">
                       <li>HTML</li>
                       <li>CSS</li>
@@ -135,11 +135,11 @@ function Resume() {
 
                 <div className="resume-wrapper row jobs">
                   <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
-                    <h2>Experience</h2>
+                    <h2 className="pt-4">Experience</h2>
                   </div>
 
                   <div className="resume-section  col-lg-3 w-80 end-0">
-                    <div className="job">
+                    <div className="job pt-4">
                       <h2>Tutor Doctor Denver</h2>
                       <h3>Director of Operations</h3>
                       <h4>2018-2021</h4>
@@ -165,7 +165,7 @@ function Resume() {
                       </p>
                     </div>
 
-                    <div className="job">
+                    <div className="job pt-4">
                       <h2>Dialogos Classical Academy</h2>
                       <h3>Director</h3>
                       <h4>2019-2020</h4>
@@ -179,7 +179,7 @@ function Resume() {
                       </p>
                     </div>
 
-                    <div className="job">
+                    <div className="job pt-4">
                       <h2>St. Patrick Catholic School</h2>
                       <h3>Kumon Mathematics Director</h3>
                       <h4>2011-2012</h4>
@@ -193,7 +193,7 @@ function Resume() {
                       </p>
                     </div>
 
-                    <div className="job last">
+                    <div className="job pt-4 last">
                       <h2>Self-Employed/Contract</h2>
                       <h3>Tutor</h3>
                       <h4>2007-2021</h4>
@@ -220,9 +220,9 @@ function Resume() {
 
                 <div className="resume-wrapper last row education">
                   <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
-                    <h2>Education</h2>
+                    <h2 className="pt-4">Education</h2>
                   </div>
-                  <div className="resume-section col-lg-3 w-80 end-0 education-section">
+                  <div className="resume-section col-lg-3 w-80 end-0 education-section pt-4">
                     <strong>Certificate</strong> | Full Stack Web Development –
                     University of Denver Denver, CO <br />
                     <strong>Graduate Studies</strong> | Theology – International
