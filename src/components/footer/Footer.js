@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 function Footer() {
   return (
-    <div className="d-flex fixed-bottom">
+    <div className="d-flex footerPage">
       <div className="list-inline mx-auto justify-content-center">
         <div className="list-inline-item">
           <a

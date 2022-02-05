@@ -1,29 +1,65 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Work+Sans:300&display=swap");
-
+:root {
+  --accent: #cb7f2f;
+  --accent2: #9b7247;
+  --light: #ffffff;
+  --lightText: #97a0be;
+  --dark: #375356;
+  --overlayStart: rgba(55, 84, 86, 0.9);
+  --navBar: rgb(55, 84, 86);
+  --overlayEnd: rgba(55, 84, 86, 0.7);
+  --ease: all 0.3s ease 0s;
+}
 .resumePage {
   font-family: Georgia;
-  color: #444;
+  padding: 1rem;
+  font-size: small;
 }
+
+.last-name {
+  color: var(--accent2);
+}
+.title-h2 {
+  font-style: italic;
+  color: var(--navBar);
+}
+.profile-h2-wrapper h2,
+.h2-wrapper,
+.education h2,
+.jobs h2 {
+  color: var(--navBar);
+}
+#bd h4,
+#bd h3 {
+  color: var(--accent2);
+}
+.technical-wrapper {
+  color: var(--lightText);
+}
+
 #inner {
-  padding: 1rem 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   margin: 8rem auto;
   background: #f5f5f5;
   border: solid #666;
   border-width: 0.8rem 0 0.2rem 0;
+  font-family: "Open Sans", sans-serif;
 }
-.resume-end {
+.resume-wrapper {
   margin-bottom: 0.2rem;
   padding-bottom: 0.2rem;
   border-bottom: 0.1rem solid #ccc;
 }
+
 #hd {
   margin: 2.5em 0 3em 0;
-  padding-bottom: 1.5em;
+  padding-bottom: 2.5em;
   border-bottom: 1px solid #ccc;
 }
 #hd h2 {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: .2rem;
 }
 #bd,
 #ft {
@@ -32,7 +68,7 @@
 #ft {
   padding: 1em 0 5em 0;
   font-size: 92%;
-  border-top: 1px solid #ccc;
+  border-top: .1rem solid #ccc;
   text-align: center;
 }
 #ft p {
@@ -52,30 +88,31 @@ h3,
 h4 {
   font-size: 122%;
 }
-h1,
-h2,
+#hd h1,
 h3,
 h4 {
   color: #333;
 }
-p {
-  font-size: 100%;
+.resumePage p {
+  font-size: 1.5rem;
   padding-right: 3em;
 }
-a {
-  color: #990003;
+.resumePage a {
+  color: var(--accent2);
 }
 a:hover {
   text-decoration: none;
+  color: var(--accent);
 }
 strong {
   font-weight: bold;
 }
-li {
-  line-height: 24px;
+.skills li {
+  line-height: 2.4rem;
+  font-size: 1.5rem;
 }
 p.enlarge {
-  font-size: 144%;
+  font-size: 1.5rem;
   padding-right: 6.5em;
   line-height: 24px;
 }
@@ -85,19 +122,17 @@ p.enlarge span {
 .contact-info {
   margin-top: 7px;
 }
-.first h2 {
-  font-style: italic;
-}
+
 .last {
   border-bottom: 0;
 }
 a#pdf {
   display: block;
   text-align: center;
-  background: #666;
+  background: rgb(92, 92, 92);
   color: white;
-  padding: .6rem 5rem .6rem 1.2rem;
-  margin-bottom: 6px;
+  padding: 0.6rem 5rem 0.6rem 1.2rem;
+  margin-bottom: .6rem;
   text-decoration: none;
 }
 
@@ -127,11 +162,12 @@ a#pdf {
   padding: 0.3rem 0;
 }
 .skills-list li span {
-  font-size: 152%;
+  font-size: 1.5rem;
   display: block;
   margin-bottom: -0.2rem;
   padding: 0;
 }
+
 .skills {
   width: 32%;
   float: left;
@@ -148,9 +184,17 @@ a#pdf {
   margin-top: 2rem;
 }
 
-.resume-end .resume-start {
-  width: 80.2%;
+.resume-wrapper .resume-section {
+  width: 80%;
 }
-.resume-end div.first {
-  width: 12.3%;
+.resume-wrapper div.first {
+  width: 20%;
+}
+
+.education-section {
+  font-size: 1.5rem;
+  color: var(--lightText);
+}
+.skills-color {
+  color: var(--accent2);
 }

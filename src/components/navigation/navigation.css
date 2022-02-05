@@ -30,3 +30,6 @@ nav {
 .nav-link:hover {
   color: var(--accent) !important;
 }
+.selected-nav {
+  color: var(--accent) !important;
+}

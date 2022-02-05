@@ -5,7 +5,7 @@ function Project({name, description, github, live, image}) {
   return (
 <div className="card-deck col-lg-3">
   <div className="card">
-    <img className="card-img-top" src={image} alt="Project"/>
+    <img className="card-img-top p-4 imageCard" src={image} alt="Project"/>
     <div className="card-body">
       <h5 className="card-title">{name}</h5>
       <p className="card-text">{description}</p>

@@ -1,6 +1,11 @@
 .portfolioPage {
   margin-top: 8vh;
   background-color: white;
-  height: 90vh;
-  margin-bottom: 8vh;
+  background-image: url("../../images/projectbackground.jpg");
+  background-position: right;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.portfolio-h2 {
+  font-size: 2rem;
 }

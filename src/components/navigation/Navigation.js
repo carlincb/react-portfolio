@@ -1,7 +1,9 @@
+import {useState} from "react";
 import "./navigation.css";
 import { Link } from "react-router-dom";
 
 function Navigation() {
+  const [currentPage, setCurrentPage] = useState();
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light fixed-top py-3"
@@ -25,7 +27,7 @@ function Navigation() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto my-2 my-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" to="/About">
+              <Link className={currentPage==="about-me" ? "selected-name" : "nav-link"} to="/About" onClick={()=>setCurrentPage("about-me")}>
                 About Me
               </Link>
             </li>
