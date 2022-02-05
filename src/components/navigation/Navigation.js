@@ -32,17 +32,17 @@ function Navigation() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Portfolio">
+              <Link className={currentPage==="portfolio" ? "selected-name" : "nav-link"} to="/Portfolio" onClick={()=>setCurrentPage("portfolio")}>
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Contact">
+              <Link className={currentPage==="contact" ? "selected-name" : "nav-link"} to="/Contact" onClick={()=>setCurrentPage("contact")}>
                 Contact
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Resume">
+              <Link className={currentPage==="resume" ? "selected-name" : "nav-link"} to="/Resume" onClick={()=>setCurrentPage("contact")}>
                 Resume
               </Link>
             </li>
