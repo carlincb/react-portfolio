@@ -71,24 +71,33 @@ function Resume() {
                   </div>
                   <div className="resume-section col-lg-3 w-80 end-0">
                     <div className="skills">
-                      <h2 className="skills-color pt-4 text-center">Web Design</h2>
-                      <p className="text-center">
-                        An eye for design! Looking for a sleek webpage-contact
-                        me today!
+                      <h2 className="skills-color pt-4">
+                        <i className="fas fa-pencil-ruler resume-i"></i> Web
+                        Design
+                      </h2>
+                      <p className="">
+                        An eye for design! Looking for a sleek webpage &mdash;
+                        contact me today!
                       </p>
                     </div>
 
                     <div className="skills">
-                      <h2 className="skills-color pt-4 text-center">Software Development</h2>
-                      <p className="text-center pr-4">
+                      <h2 className="skills-color pt-4">
+                        <i className="fab fa-sketch resume-i"></i> Software
+                        Development
+                      </h2>
+                      <p className="pr-4">
                         Trained across the Full MERN Stack. Always learning a
                         new technology!
                       </p>
                     </div>
 
                     <div className="skills">
-                      <h2 className="skills-color pt-4 text-center">Project Direction</h2>
-                      <p className="text-center">
+                      <h2 className="skills-color pt-4">
+                        <i className="fas fa-user-friends resume-i"></i> Project
+                        Direction
+                      </h2>
+                      <p className="">
                         Proven ability to lead and manage a wide variety of
                         projects in team and independent situations.
                       </p>
@@ -123,7 +132,7 @@ function Resume() {
 
                     <ul className="skills">
                       <li>Figma</li>
-                      <li>GitHub / GitLab</li>
+                      <li>GitHub | GitLab</li>
                       <li>MongoDB</li>
                       <li>Mongoose</li>
                       <li>Handlebars</li>
@@ -194,7 +203,7 @@ function Resume() {
                     </div>
 
                     <div className="job pt-4 last">
-                      <h2>Self-Employed/Contract</h2>
+                      <h2>Self-Employed | Contract</h2>
                       <h3>Tutor</h3>
                       <h4>2007-2021</h4>
                       <p>
@@ -220,18 +229,48 @@ function Resume() {
 
                 <div className="resume-wrapper last row education">
                   <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
-                    <h2 className="pt-4">Education</h2>
+                    <h2 className="pt-4 education-header">Education</h2>
                   </div>
                   <div className="resume-section col-lg-3 w-80 end-0 education-section pt-4">
-                    <strong>Certificate</strong> | Full Stack Web Development –
-                    University of Denver Denver, CO <br />
-                    <strong>Graduate Studies</strong> | Theology – International
-                    Theological Institute Trumau, Austria <br />
-                    <strong>Bachelor of Arts</strong> | History – Thomas Edison
-                    State University Trenton, NJ <br />
-                    <strong>Coursework</strong> | Mathematics, Science,
-                    Theology, and Philosophy – Thomas Aquinas College Santa
-                    Paula, CA
+                    <h2 className="education-h2">
+                      <strong>Certificate</strong>
+                      <span>
+                        | Full Stack Web Development &mdash; University of
+                        Denver
+                      </span>
+                      <h4>
+                        Denver, CO <br />
+                      </h4>
+                    </h2>
+
+                    <h2 className="education-h2">
+                      <strong>Graduate Studies</strong>
+                      <span>
+                        | Theology &mdash; International Theological Institute
+                      </span>
+                      <h4>
+                        Trumau, Austria <br />
+                      </h4>
+                    </h2>
+
+                    <h2 className="education-h2">
+                      <strong>Bachelor of Arts</strong>
+                      <span>| History &mdash; Thomas Edison State University</span>
+                      <h4 >
+                        Trenton, NJ <br />
+                      </h4>
+                    </h2>
+
+                    <h2 className="education-h2">
+                      <strong>Coursework</strong>
+                      <span>
+                        | Mathematics, Science, Theology, and Philosophy &mdash;
+                        Thomas Aquinas College
+                      </span>
+                      <h4>
+                        Santa Paula, CA <br />
+                      </h4>
+                    </h2>
                   </div>
                 </div>
               </div>
