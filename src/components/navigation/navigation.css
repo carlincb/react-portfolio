@@ -11,7 +11,7 @@
   --ease: all 0.3s ease 0s;
 }
 nav {
-  background-color: transparent;
+  background-color: var(--navBar);
 }
 .navbar-brand {
   font-size: 2.5rem;
@@ -23,14 +23,17 @@ nav {
   height: 3rem;
   margin: 1rem !important;
 }
-.nav-link {
-  color: var(--lightText) !important;
-}
-
-.nav-link:hover {
-  color: var(--accent) !important;
-}
 .selected-nav {
-  color: var(--accent) !important;
+  color: var(--light) !important;
+}
+.navLink, .homeNav {
+  color: var(--lightText);
 }
 
+.navLink:hover {
+  color: var(--light) !important;
+}
+
+.nav-item {
+  padding: 1rem;
+}

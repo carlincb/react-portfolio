@@ -19,8 +19,18 @@
   font-size: small;
 }
 
+.first-name {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  line-height: 0.75;
+  margin: 1rem 0;
+}
 .last-name {
-  color: var(--accent2);
+  color: rgb(237, 96, 71);
 }
 .title-h2 {
   font-family: "Estonia", cursive;
@@ -35,16 +45,31 @@
 }
 #bd h4,
 #bd h3 {
-  color: var(--accent2);
+  color: rgb(237, 96, 71);
+  font-family: "Estonia", cursive;
+  text-transform: uppercase;
+  font-size: 175%;
+  font-weight: bold;
 }
 .technical-wrapper {
-  color: var(--lightText);
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 0.75;
+  margin: 1rem 0;
 }
 
 #inner {
   padding: 8rem;
   margin: 8rem;
-  background: #f5f5f5;
+  background-image: url("../../images/polygonpage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: solid #666;
   border-width: 0.8rem 0 0.2rem 0;
   font-family: "Open Sans", sans-serif;
@@ -101,11 +126,11 @@ h4 {
   padding-right: 3em;
 }
 .resumePage a {
-  color: var(--accent2);
+  color: rgb(237, 96, 71);
 }
 a:hover {
   text-decoration: none;
-  color: var(--accent);
+  color: var(--lightText);
 }
 strong {
   font-weight: bold;
@@ -132,11 +157,12 @@ p.enlarge span {
 a#pdf {
   display: block;
   text-align: center;
-  background: rgb(92, 92, 92);
+  background: rgb(237, 96, 71);
   color: white;
   padding: 0.6rem 5rem 0.6rem 1.2rem;
   margin-bottom: 0.6rem;
   text-decoration: none;
+  font-size: 1.25rem;
 }
 
 .job {
@@ -199,15 +225,23 @@ a#pdf {
   color: var(--lightText);
 }
 .skills-color {
-  color: var(--accent2);
+  color: rgb(237, 96, 71);
+  font-family: "Estonia", cursive;
+  text-transform: uppercase;
+  font-size: 200%;
 }
 
-.resume-i {
-  color: var(--accent2);
+.resume-i,
+.education-h2 h4 {
+  color: rgb(237, 96, 71);
 }
-.education-h2, .education-h2 h4 {
+.education-h2,
+.education-h2 h4 {
   font-size: 1.5rem;
 }
 .education-h2 span {
-  color: var(--lightText)
+  color: var(--lightText);
+}
+.education-city {
+  font-size: 2rem !important;
 }

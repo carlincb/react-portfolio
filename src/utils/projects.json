@@ -4,41 +4,47 @@
         "Image": "/assets/images/marvelisms.png",
         "GitHub": "https://github.com/carlincb/Marvelisms",
         "Live": "https://carlincb.github.io/Marvelisms/",
-        "Description": "A database for users to learn more about the Marvel Universe"
+        "Description": "A database for users to learn more about the Marvel Universe.",
+        "Tools": "JavaScript, jQuery, Bulma, and Server-Side APIs."
     },
     {
         "Name": "MVC Tech Blog",
         "Image": "/assets/images/techblog.png",
         "GitHub": "https://github.com/carlincb/MVC-Tech-Blog",
         "Live": "https://fast-garden-22281.herokuapp.com/",
-        "Description": "A tech blog for users to share about the tech world."
+        "Description": "A tech blog for users to share about the tech world.",
+        "Tools": "Node, Express, Sequelize, MySQL, and deployed on Heroku."
     },
     {
         "Name": "Work Day Scheduler",
         "Image": "/assets/images/scheduler.png",
         "GitHub": "https://github.com/carlincb/Work_Day_Scheduler",
         "Live": "https://carlincb.github.io/Work_Day_Scheduler/",
-        "Description": "A calendar application for the work day."
+        "Description": "A calendar application for the work day.",
+        "Tools": "Momentum.js, jQuery, Font Awesome, and Bootstrap."
     },
     {
         "Name": "Password Generator",
         "Image": "/assets/images/passwordgenerator.png",
         "GitHub": "https://github.com/carlincb/Password_Generator",
         "Live": "https://carlincb.github.io/Password_Generator/",
-        "Description": "An application for creating random passwords."
+        "Description": "An application for creating random passwords.",
+        "Tools": "JavaScript, HTML, and CSS."
     },
     {
         "Name": "Weather Dashboard",
         "Image": "/assets/images/weatherdashboard.png",
         "GitHub": "https://github.com/carlincb/Weather_Dashboard",
         "Live": "https://carlincb.github.io/Weather_Dashboard/",
-        "Description": "An application for predicting the weather in multiple cities."
+        "Description": "An application for predicting the weather in multiple cities.",
+        "Tools": "OpenWeather API, Bootstrap, JavaScript, and Google Fonts."
     },
     {
         "Name": "TripShare",
         "Image": "/assets/images/tripshare.png",
         "GitHub": "https://github.com/carlincb/TripShare",
         "Live": "https://blooming-ridge-32748.herokuapp.com/",
-        "Description": "A travel blog where users can share and give feedback about anything travel related."
+        "Description": "A travel blog where users can share and give feedback about anything travel related.",
+        "Tools": "Node, Express, Sequelize, Cloudinary, MySQL, and deployed on Heroku."
     }
 ]

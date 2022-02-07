@@ -1,8 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import codingImg from "../../images/coding1.jpg";
 import "./contact.css";
 
 function Contact() {
+  const [inputEmpty, setInputEmpty] = useState({
+    name: false,
+    phone: false,
+    email: false,
+    message: false,
+  });
+
+  function handleEmptyInput(event) {
+    if (!event.target.value.length) {
+      switch (event.target.id) {
+        case "name":
+          setInputEmpty({...setInputEmpty, name: true});
+          break;
+        case "email":
+          setInputEmpty({...setInputEmpty, email: true});
+          break;
+        case "phone":
+          setInputEmpty({...setInputEmpty, phone: true});
+          break;
+        case "message":
+          setInputEmpty({...setInputEmpty, message: true});
+          break;
+        default:
+          break;
+      }
+    }
+    console.log(inputEmpty)
+  }
   return (
     <div>
       <section className="contactForm" id="contact">
@@ -30,7 +58,9 @@ function Contact() {
               <div className="col-lg-8">
                 <form id="contactForm">
                   <div className="form-floating mb-5">
+                    {inputEmpty.name && <p className="fieldRequired">This field is required.</p>}
                     <input
+                      onBlur={handleEmptyInput}
                       className="form-control h-50"
                       id="name"
                       type="text"
@@ -39,7 +69,9 @@ function Contact() {
                     <label for="name">Full name</label>
                   </div>
                   <div className="form-floating mb-5">
+                    {inputEmpty.email && <p  className="fieldRequired">This field is required.</p>}
                     <input
+                      onBlur={handleEmptyInput}
                       className="form-control h-50"
                       id="email"
                       type="email"
@@ -48,7 +80,9 @@ function Contact() {
                     <label for="email">Email address</label>
                   </div>
                   <div className="form-floating mb-5">
+                    {inputEmpty.phone && <p  className="fieldRequired">This field is required.</p>}
                     <input
+                      onBlur={handleEmptyInput}
                       className="form-control h-50"
                       id="phone"
                       type="tel"
@@ -57,7 +91,9 @@ function Contact() {
                     <label for="phone">Phone number</label>
                   </div>
                   <div className="form-floating mb-5">
+                    {inputEmpty.message && <p  className="fieldRequired">This field is required.</p>}
                     <textarea
+                      onBlur={handleEmptyInput}
                       className="form-control h-100"
                       id="message"
                       type="text"

@@ -29,3 +29,7 @@
   font-size: 2rem;
   padding: 1rem;
 }
+.fieldRequired {
+  background-color: rgb(255, 255, 198);
+  float: right;
+}

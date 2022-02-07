@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   const [currentPage, setCurrentPage] = useState();
+
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light fixed-top py-3"
       id="mainNav"
     >
       <div className="container px-4 px-lg-5">
-        <Link className="navbar-brand" to="/">
+        <Link className={currentPage==="home" ? "navbar-brand selected-nav" : "navbar-brand navLink homeNav"} to="/" onClick={()=>setCurrentPage("home")}>
           Colleen Fimister
         </Link>
         <button
@@ -27,22 +28,22 @@ function Navigation() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto my-2 my-lg-0">
             <li className="nav-item">
-              <Link className={currentPage==="about-me" ? "selected-name" : "nav-link"} to="/About" onClick={()=>setCurrentPage("about-me")}>
+              <Link className={currentPage==="about-me" ? "selected-nav" : "navLink"} to="/About" onClick={()=>setCurrentPage("about-me")}>
                 About Me
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={currentPage==="portfolio" ? "selected-name" : "nav-link"} to="/Portfolio" onClick={()=>setCurrentPage("portfolio")}>
+              <Link className={currentPage==="portfolio" ? "selected-nav" : "navLink"} to="/Portfolio" onClick={()=>setCurrentPage("portfolio")}>
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={currentPage==="contact" ? "selected-name" : "nav-link"} to="/Contact" onClick={()=>setCurrentPage("contact")}>
+              <Link className={currentPage==="contact" ? "selected-nav" : "navLink"} to="/Contact" onClick={()=>setCurrentPage("contact")}>
                 Contact
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={currentPage==="resume" ? "selected-name" : "nav-link"} to="/Resume" onClick={()=>setCurrentPage("contact")}>
+              <Link className={currentPage==="resume" ? "selected-nav" : "navLink"} to="/Resume" onClick={()=>setCurrentPage("resume")}>
                 Resume
               </Link>
             </li>

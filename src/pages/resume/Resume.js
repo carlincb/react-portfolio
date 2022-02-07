@@ -10,7 +10,7 @@ function Resume() {
             <div className="row">
               <div className="resume-section first col-lg-10 w-80">
                 <h1 className="title-h1">
-                  Colleen{" "}
+                  <span className="first-name">Colleen </span>
                   <span className="last-name">
                     <strong>Fimister</strong>
                   </span>
@@ -26,7 +26,7 @@ function Resume() {
                     <a
                       className="btn text-center end-0 "
                       id="pdf"
-                      href="/assets/resume2.pdf"
+                      href="/assets/resume.pdf"
                       download
                     >
                       Download PDF
@@ -232,42 +232,52 @@ function Resume() {
                     <h2 className="pt-4 education-header">Education</h2>
                   </div>
                   <div className="resume-section col-lg-3 w-80 end-0 education-section pt-4">
-                    <h2 className="education-h2">
-                      <strong>Certificate</strong>
-                      <span>
-                        | Full Stack Web Development &mdash; University of
-                        Denver
-                      </span>
-                      <h4>
+                    <h2 className="education-h2 row">
+                      <div className="col-lg-2 w-50">
+                        <strong>Certificate</strong>
+                        <span>
+                          | Full Stack Web Development &mdash; University of
+                          Denver
+                        </span>
+                      </div>
+                      <h4 className="education-city col-lg-2 w-10">
                         Denver, CO <br />
                       </h4>
                     </h2>
 
-                    <h2 className="education-h2">
-                      <strong>Graduate Studies</strong>
-                      <span>
-                        | Theology &mdash; International Theological Institute
-                      </span>
-                      <h4>
+                    <h2 className="education-h2 row">
+                      <div className="col-lg-2 w-50">
+                        <strong>Graduate Studies</strong>
+                        <span>
+                          | Theology &mdash; International Theological Institute
+                        </span>
+                      </div>
+                      <h4 className="education-city col-lg-2 w-50">
                         Trumau, Austria <br />
                       </h4>
                     </h2>
 
-                    <h2 className="education-h2">
-                      <strong>Bachelor of Arts</strong>
-                      <span>| History &mdash; Thomas Edison State University</span>
-                      <h4 >
+                    <h2 className="education-h2 row">
+                      <div className="col-lg-2 w-50">
+                        <strong>Bachelor of Arts</strong>
+                        <span>
+                          | History &mdash; Thomas Edison State University
+                        </span>
+                      </div>
+                      <h4 className="education-city col-lg-2 w-50">
                         Trenton, NJ <br />
                       </h4>
                     </h2>
 
-                    <h2 className="education-h2">
-                      <strong>Coursework</strong>
-                      <span>
-                        | Mathematics, Science, Theology, and Philosophy &mdash;
-                        Thomas Aquinas College
-                      </span>
-                      <h4>
+                    <h2 className="education-h2 row">
+                      <div className="col-lg-2 w-50">
+                        <strong>Coursework</strong>
+                        <span>
+                          | Mathematics, Science, Theology, and Philosophy
+                          &mdash; Thomas Aquinas College
+                        </span>
+                      </div>
+                      <h4 className="education-city col-lg-2 w-50">
                         Santa Paula, CA <br />
                       </h4>
                     </h2>

@@ -8,7 +8,7 @@ function Portfolio() {
     <div className="row portfolioPage">
       <h1 className="text-center">Recent Projects</h1>
       <h2 className="text-center portfolio-h2">Want to see my work? Check out some of my recent projects!</h2>
-      {projectsJson.map(({ Name, Description, Image, GitHub, Live }) => {
+      {projectsJson.map(({ Name, Description, Image, Tools, GitHub, Live }) => {
         return (
           <Project
             image={Image}
@@ -16,6 +16,7 @@ function Portfolio() {
             github={GitHub}
             live={Live}
             description={Description}
+            tools={Tools}
           />
         );
       })}
