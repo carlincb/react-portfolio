@@ -10,9 +10,7 @@
   --overlayEnd: rgba(55, 84, 86, 0.7);
   --ease: all 0.3s ease 0s;
 }
-nav {
-  background-color: var(--navBar);
-}
+
 .navbar-brand {
   font-size: 2.5rem;
   color: var(--lightText) !important;
@@ -26,7 +24,8 @@ nav {
 .selected-nav {
   color: var(--light) !important;
 }
-.navLink, .homeNav {
+.navLink,
+.homeNav {
   color: var(--lightText);
 }
 
@@ -36,4 +35,7 @@ nav {
 
 .nav-item {
   padding: 1rem;
+  background-color: rgba(55, 84, 86, 0.68);
+  border-radius: .5rem;
 }
+

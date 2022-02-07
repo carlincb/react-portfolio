@@ -15,7 +15,7 @@ function Navigation() {
           Colleen Fimister
         </Link>
         <button
-          className="navbar-toggler navbar-toggler-right"
+          className="navbar-toggler navbar-toggler-left"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarResponsive"
