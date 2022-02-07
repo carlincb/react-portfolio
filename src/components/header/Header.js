@@ -1,7 +1,7 @@
 import Navigation from '../navigation/Navigation';
 
 function Header() {
-  return <div>
+  return <div className="headerDiv">
     < Navigation />
   </div>;
 }

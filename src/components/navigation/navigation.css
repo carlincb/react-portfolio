@@ -22,7 +22,7 @@
   margin: 1rem !important;
 }
 .selected-nav {
-  color: var(--light) !important;
+  color: var(--accent);
 }
 .navLink,
 .homeNav {
@@ -30,12 +30,10 @@
 }
 
 .navLink:hover {
-  color: var(--light) !important;
+  color: var(--accent);
 }
 
-.nav-item {
+.nav-item,
+.homeNav {
   padding: 1rem;
-  background-color: rgba(55, 84, 86, 0.68);
-  border-radius: .5rem;
 }
-

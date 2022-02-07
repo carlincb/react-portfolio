@@ -1,2 +1,0 @@
-# react-portfolio
-Professional Portfolio
