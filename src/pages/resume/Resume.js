@@ -75,7 +75,7 @@ function Resume() {
                         <i className="fas fa-pencil-ruler resume-i"></i> Web
                         Design
                       </h2>
-                      <p className="">
+                      <p className="d-flex justify-content-start pSkills">
                         An eye for design! Looking for a sleek webpage &mdash;
                         contact me today!
                       </p>
@@ -86,7 +86,7 @@ function Resume() {
                         <i className="fab fa-sketch resume-i"></i> Software
                         Development
                       </h2>
-                      <p className="pr-4">
+                      <p className="pr-4 d-flex justify-content-start pSkills">
                         Trained across the Full MERN Stack. Always learning a
                         new technology!
                       </p>
@@ -97,7 +97,7 @@ function Resume() {
                         <i className="fas fa-user-friends resume-i"></i> Project
                         Direction
                       </h2>
-                      <p className="">
+                      <p className="d-flex justify-content-start pSkills">
                         Proven ability to lead and manage a wide variety of
                         projects in team and independent situations.
                       </p>

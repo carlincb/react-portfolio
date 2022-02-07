@@ -65,7 +65,7 @@
 
 #inner {
   padding: 8rem;
-  margin: 4rem;
+  margin: 2rem;
   background-image: url("../../images/polygonpage.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -116,11 +116,7 @@ h3,
 h4 {
   font-size: 122%;
 }
-#hd h1,
-h3,
-h4 {
-  color: #333;
-}
+
 .resumePage p {
   font-size: 1.5rem;
   padding-right: 3em;
@@ -247,4 +243,28 @@ a#pdf {
 .education-city {
   font-size: 2rem !important;
   text-align: end;
+}
+@media only screen and (max-width: 836px) {
+  .resume-wrapper .resume-section {
+    width: 100%;
+  }
+  .resume-wrapper div.first {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 743px) {
+  .skills {
+    width: 95vh;
+    text-align: justify;
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+  #inner {
+    margin: 0rem;
+    padding: 1rem;
+    width: 95vh;
+    margin: 1rem;
+    padding: 2rem;
+  }
 }
