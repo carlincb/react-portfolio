@@ -22,9 +22,9 @@ function Resume() {
 
               <div className="w-20 col-lg-2">
                 <div className="m-2">
-                  <h3>
+                  <h3 className="text-center">
                     <a
-                      className="btn text-center end-0 "
+                      type="button" className="btn"
                       id="pdf"
                       href="/assets/resume.pdf"
                       download
