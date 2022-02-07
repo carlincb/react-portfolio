@@ -233,51 +233,51 @@ function Resume() {
                   </div>
                   <div className="resume-section col-lg-3 w-80 end-0 education-section pt-4">
                     <h2 className="education-h2 row">
-                      <div className="col-lg-2 w-50">
+                      <div className="col-lg-2 w-75">
                         <strong>Certificate</strong>
                         <span>
                           | Full Stack Web Development &mdash; University of
                           Denver
                         </span>
                       </div>
-                      <h4 className="education-city col-lg-2 w-10">
+                      <h4 className="education-city col-lg-2 w-25">
                         Denver, CO <br />
                       </h4>
                     </h2>
 
                     <h2 className="education-h2 row">
-                      <div className="col-lg-2 w-50">
+                      <div className="col-lg-2 w-75">
                         <strong>Graduate Studies</strong>
                         <span>
                           | Theology &mdash; International Theological Institute
                         </span>
                       </div>
-                      <h4 className="education-city col-lg-2 w-50">
+                      <h4 className="education-city col-lg-2 w-25">
                         Trumau, Austria <br />
                       </h4>
                     </h2>
 
                     <h2 className="education-h2 row">
-                      <div className="col-lg-2 w-50">
+                      <div className="col-lg-2 w-75">
                         <strong>Bachelor of Arts</strong>
                         <span>
                           | History &mdash; Thomas Edison State University
                         </span>
                       </div>
-                      <h4 className="education-city col-lg-2 w-50">
+                      <h4 className="education-city col-lg-2 w-25">
                         Trenton, NJ <br />
                       </h4>
                     </h2>
 
                     <h2 className="education-h2 row">
-                      <div className="col-lg-2 w-50">
+                      <div className="col-lg-2 w-75">
                         <strong>Coursework</strong>
                         <span>
                           | Mathematics, Science, Theology, and Philosophy
                           &mdash; Thomas Aquinas College
                         </span>
                       </div>
-                      <h4 className="education-city col-lg-2 w-50">
+                      <h4 className="education-city col-lg-2 w-25">
                         Santa Paula, CA <br />
                       </h4>
                     </h2>

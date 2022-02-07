@@ -5,7 +5,7 @@
         "GitHub": "https://github.com/carlincb/Marvelisms",
         "Live": "https://carlincb.github.io/Marvelisms/",
         "Description": "A database for users to learn more about the Marvel Universe.",
-        "Tools": "JavaScript, jQuery, Bulma, and Server-Side APIs."
+        "Tools": "JavaScript, jQuery, Bulma & Server-Side APIs."
     },
     {
         "Name": "MVC Tech Blog",
@@ -13,7 +13,7 @@
         "GitHub": "https://github.com/carlincb/MVC-Tech-Blog",
         "Live": "https://fast-garden-22281.herokuapp.com/",
         "Description": "A tech blog for users to share about the tech world.",
-        "Tools": "Node, Express, Sequelize, MySQL, and deployed on Heroku."
+        "Tools": "Node, Express, Sequelize, MySQL & Heroku."
     },
     {
         "Name": "Work Day Scheduler",
@@ -21,7 +21,7 @@
         "GitHub": "https://github.com/carlincb/Work_Day_Scheduler",
         "Live": "https://carlincb.github.io/Work_Day_Scheduler/",
         "Description": "A calendar application for the work day.",
-        "Tools": "Momentum.js, jQuery, Font Awesome, and Bootstrap."
+        "Tools": "Momentum.js, jQuery, Font Awesome & Bootstrap."
     },
     {
         "Name": "Password Generator",
@@ -29,7 +29,7 @@
         "GitHub": "https://github.com/carlincb/Password_Generator",
         "Live": "https://carlincb.github.io/Password_Generator/",
         "Description": "An application for creating random passwords.",
-        "Tools": "JavaScript, HTML, and CSS."
+        "Tools": "JavaScript, HTML & CSS."
     },
     {
         "Name": "Weather Dashboard",
@@ -37,7 +37,7 @@
         "GitHub": "https://github.com/carlincb/Weather_Dashboard",
         "Live": "https://carlincb.github.io/Weather_Dashboard/",
         "Description": "An application for predicting the weather in multiple cities.",
-        "Tools": "OpenWeather API, Bootstrap, JavaScript, and Google Fonts."
+        "Tools": "OpenWeather API, Bootstrap, JavaScript & Google Fonts."
     },
     {
         "Name": "TripShare",
@@ -45,6 +45,6 @@
         "GitHub": "https://github.com/carlincb/TripShare",
         "Live": "https://blooming-ridge-32748.herokuapp.com/",
         "Description": "A travel blog where users can share and give feedback about anything travel related.",
-        "Tools": "Node, Express, Sequelize, Cloudinary, MySQL, and deployed on Heroku."
+        "Tools": "Node, Express, Sequelize, Cloudinary, MySQL & Heroku."
     }
 ]

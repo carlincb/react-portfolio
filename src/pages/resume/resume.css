@@ -65,7 +65,7 @@
 
 #inner {
   padding: 8rem;
-  margin: 8rem;
+  margin: 4rem;
   background-image: url("../../images/polygonpage.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -244,4 +244,5 @@ a#pdf {
 }
 .education-city {
   font-size: 2rem !important;
+text-align: end;
 }
