@@ -61,10 +61,10 @@ This is a webpage, so no installation is necessary.
 
 Please see below for examples of this application's usage:
 
-![1](/assets/images/1.png)
-![2](/assets/images/2.png)
-![3](/assets/images/3.png)
-![4](/assets/images/4.png)
+![1](public/assets/images/1.png)
+![2](public/assets/images/2.png)
+![3](public/assets/images/3.png)
+![4](public/assets/images/4.png)
 
 ## Credits
 
