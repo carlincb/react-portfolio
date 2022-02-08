@@ -61,10 +61,25 @@ This is a webpage, so no installation is necessary.
 
 Please see below for examples of this application's usage:
 
+### Homepage
+
 ![1](public/assets/images/1.png)
+
+### About Me
+
 ![2](public/assets/images/2.png)
+
+### Portfolio
+
 ![3](public/assets/images/3.png)
+
+### Contact
+
 ![4](public/assets/images/4.png)
+
+### Resume
+
+![5](public/assets/images/5.png)
 
 ## Credits
 
