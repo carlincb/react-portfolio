@@ -125,7 +125,3 @@ No contributions needed at this time, but please feel free to contact me at my e
 ## Questions
 
 If you have questions, please contact me at carlin.colleen@gmail.com or find me at https://github.com/carlincb.
-
-```
-
-```
