@@ -9,3 +9,8 @@
 .portfolio-h2 {
   font-size: 2rem;
 }
+@media only screen and (max-width: 992px) {
+  .portfolioPage {
+    margin-top: 12vh;
+  }
+}

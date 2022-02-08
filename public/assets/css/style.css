@@ -201,7 +201,12 @@ i:hover {
     display: none;
   }
 }
-
+@media only screen and (max-width: 992px) {
+  .nav-item,
+  .navContainer {
+    background-color: var(--navBar);
+  }
+}
 @media only screen and (max-width: 600px) {
   .header {
     transform: scale(0.85);

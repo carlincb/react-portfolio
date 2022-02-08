@@ -10,7 +10,7 @@ function Navigation() {
       className="navbar navbar-expand-lg navbar-light fixed-top py-3"
       id="mainNav"
     >
-      <div className="container px-4 px-lg-5">
+      <div className="container navContainer px-4 px-lg-5">
         <Link className={currentPage==="home" ? "navbar-brand selected-nav" : "navbar-brand navLink homeNav"} to="/" onClick={()=>setCurrentPage("home")}>
           Colleen Fimister
         </Link>

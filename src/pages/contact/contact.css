@@ -33,3 +33,8 @@
   background-color: rgb(255, 255, 198);
   float: right;
 }
+@media only screen and (max-width: 992px) {
+  .contactForm {
+    margin-top: 12vh;
+  }
+}

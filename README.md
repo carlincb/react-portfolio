@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+My professiona portfolio, showcasing my knowledge of React.
 
-In the project directory, you can run:
+**Tools & Skills Used**<br>
+React, Webpack, GitHub Pages, React Router DOM, HTML, CSS, and Bootstrap.
 
-### `npm start`
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Contributing](#contributing)
+- [Links](#links)
+- [Questions](#questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## User Story
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```md
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
+```
 
-### `npm test`
+## Acceptance Criteria
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```md
+GIVEN a single-page application portfolio for a web developer
+WHEN I load the portfolio
+THEN I am presented with a page containing a header, a section for content, and a footer
+WHEN I view the header
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+WHEN I view the navigation titles
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+WHEN I click on a navigation title
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+WHEN I load the portfolio the first time
+THEN the About Me title and section are selected by default
+WHEN I am presented with the About Me section
+THEN I see a recent photo or avatar of the developer and a short bio about them
+WHEN I am presented with the Portfolio section
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+WHEN I am presented with the Contact section
+THEN I see a contact form with fields for a name, an email address, and a message
+WHEN I move my cursor out of one of the form fields without entering text
+THEN I receive a notification that this field is required
+WHEN I enter text into the email address field
+THEN I receive a notification if I have entered an invalid email address
+WHEN I am presented with the Resume section
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+WHEN I view the footer
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a webpage, so no installation is necessary.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please see below for examples of this application's usage:
 
-### `npm run eject`
+![1](assets/images/1.png)
+![2](assets/images/2.png)
+![3](assets/images/3.png)
+![4](assets/images/4.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- https://www.youtube.com/watch?v=hQAHSlTtcmY
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br/>
 
-## Learn More
+    MIT License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Copyright (c) 2022 COLLEEN FIMISTER
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-### Code Splitting
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+No contributions needed at this time, but please feel free to contact me at my email address below if you would like to contact me about this project.
 
-### Making a Progressive Web App
+## Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Live Link]()
 
-### Advanced Configuration
+[GitHub Link](https://github.com/carlincb/react-portfolio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Questions
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have questions, please contact me at carlin.colleen@gmail.com or find me at https://github.com/carlincb.
+```

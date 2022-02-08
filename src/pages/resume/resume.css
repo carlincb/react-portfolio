@@ -244,6 +244,11 @@ a#pdf {
   font-size: 2rem !important;
   text-align: end;
 }
+@media only screen and (max-width: 992px) {
+  .resumePage {
+    margin-top: 12vh;
+  }
+}
 @media only screen and (max-width: 836px) {
   .resume-wrapper .resume-section {
     width: 100%;
