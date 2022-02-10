@@ -1,6 +1,5 @@
 import React from "react";
 import "./resume.css";
-import resumePdf from 'src/images/resume.pdf';
 
 function Resume() {
   return (
@@ -28,7 +27,7 @@ function Resume() {
                       type="button"
                       className="btn"
                       id="pdf"
-                      href={resumePdf}
+                      href={process.env.PUBLIC_URL + "/assets/resume.pdf"}
                       download
                     >
                       Download PDF
