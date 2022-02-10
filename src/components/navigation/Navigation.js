@@ -3,7 +3,7 @@ import "./navigation.css";
 import { Link } from "react-router-dom";
 
 function Navigation() {
-  const [currentPage, setCurrentPage] = useState();
+  const [currentPage, setCurrentPage] = useState("home");
 
   return (
     <nav
