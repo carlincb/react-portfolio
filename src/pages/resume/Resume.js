@@ -27,7 +27,7 @@ function Resume() {
                       type="button"
                       className="btn"
                       id="pdf"
-                      href={process.env.PUBLIC_URL + "/assets/resume.pdf"}
+                      href="/assets/resume.pdf"
                       download
                     >
                       Download PDF
