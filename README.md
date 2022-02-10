@@ -118,7 +118,7 @@ No contributions needed at this time, but please feel free to contact me at my e
 
 ## Links
 
-[Live Link]()
+[Live Link](https://carlincb.github.io/react-portfolio/)
 
 [GitHub Link](https://github.com/carlincb/react-portfolio)
 
