@@ -1,5 +1,6 @@
 import React from "react";
 import "./resume.css";
+import resumePdf from '/assets/resume.pdf';
 
 function Resume() {
   return (
@@ -27,7 +28,7 @@ function Resume() {
                       type="button"
                       className="btn"
                       id="pdf"
-                      href="/assets/resume.pdf"
+                      href={resumePdf}
                       download
                     >
                       Download PDF
