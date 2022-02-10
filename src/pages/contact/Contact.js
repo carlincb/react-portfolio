@@ -48,7 +48,7 @@ function Contact() {
                   Let's Get In Touch!
                 </h2>
                 <hr className="divider" />
-                <p className="p-3 text-muted mb-5">
+                <p className="p-3 text-muted mb-5 titleText">
                   Ready to start your next project with me? Send me a message
                   and I will get back to you as soon as possible!
                 </p>
@@ -56,12 +56,12 @@ function Contact() {
             </div>
             <div className="row gx-4 gx-lg-5 justify-content-center mb-5">
               <div className="col-lg-8">
-                <form id="contactForm">
+                <form id="contactForm" data-sb-form-api-token="6793d30c-026e-413f-8c62-f8208326d269">
                   <div className="form-floating mb-5">
                     {inputEmpty.name && <p className="fieldRequired">This field is required.</p>}
                     <input
                       onBlur={handleEmptyInput}
-                      className="form-control h-50"
+                      className="form-control h-75 pt-4"
                       id="name"
                       type="text"
                       required
@@ -72,7 +72,7 @@ function Contact() {
                     {inputEmpty.email && <p  className="fieldRequired">This field is required.</p>}
                     <input
                       onBlur={handleEmptyInput}
-                      className="form-control h-50"
+                      className="form-control h-75 pt-4"
                       id="email"
                       type="email"
                       required
@@ -83,7 +83,7 @@ function Contact() {
                     {inputEmpty.phone && <p  className="fieldRequired">This field is required.</p>}
                     <input
                       onBlur={handleEmptyInput}
-                      className="form-control h-50"
+                      className="form-control h-75 pt-4"
                       id="phone"
                       type="tel"
                       required
@@ -94,7 +94,7 @@ function Contact() {
                     {inputEmpty.message && <p  className="fieldRequired">This field is required.</p>}
                     <textarea
                       onBlur={handleEmptyInput}
-                      className="form-control h-100"
+                      className="form-control h-100 pt-10"
                       id="message"
                       type="text"
                       required

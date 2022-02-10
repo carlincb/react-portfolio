@@ -24,7 +24,8 @@ function Resume() {
                 <div className="m-2">
                   <h3 className="text-center">
                     <a
-                      type="button" className="btn"
+                      type="button"
+                      className="btn"
                       id="pdf"
                       href="/assets/resume.pdf"
                       download
@@ -140,8 +141,140 @@ function Resume() {
                       <li className="last">React</li>
                     </ul>
                   </div>
+                  </div>
+                  <div className="resume-wrapper row">
+                  <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
+                  <h2 className="h2-wrapper pt-6">Projects</h2>
+                  </div>
+                  <div className="resume-section w-80 end-0 pt-5 pb-5">
+                    <div id="portfolio">
+                      <div className="container-fluid p-0">
+                        <div className="row g-0">
+                          <div className="col-lg-4 col-sm-6">
+                            <a
+                              className="portfolio-box"
+                              href="https://carlincb.github.io/Marvelisms/" target="_blank" 
+                              title="Marvelisms" rel="noreferrer"
+                            >
+                              <img
+                                className="img-fluid"
+                                src="assets/images/resume1.png"
+                                alt="Marvelisms"
+                              />
+                              <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">
+                                  A Marvel Fanpage
+                                </div>
+                                <div className="project-name">Marvelisms</div>
+                              </div>
+                            </a>
+                          </div>
+                          <div className="col-lg-4 col-sm-6">
+                            <a
+                              className="portfolio-box"
+                              href="https://fast-garden-22281.herokuapp.com/"
+                              target="_blank" 
+                              title="MVC Tech Blog" rel="noreferrer"
+                            >
+                              <img
+                                className="img-fluid"
+                                src="assets/images/resume2.png"
+                                alt="MVC Tech Blog"
+                              />
+                              <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">
+                                  A Tech Blog
+                                </div>
+                                <div className="project-name">MVC Tech Blog</div>
+                              </div>
+                            </a>
+                          </div>
+                          <div className="col-lg-4 col-sm-6">
+                            <a
+                              className="portfolio-box"
+                              href="https://carlincb.github.io/Work_Day_Scheduler/"
+                              target="_blank" 
+                              title="Work Day Scheduler" rel="noreferrer"
+                            >
+                              <img
+                                className="img-fluid"
+                                src="assets/images/resume3.png"
+                                alt="Work Day Scheduler"
+                              />
+                              <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">
+                                  A Calendar for the Work Day
+                                </div>
+                                <div className="project-name">Work Day Scheduler</div>
+                              </div>
+                            </a>
+                          </div>
+                          <div className="col-lg-4 col-sm-6">
+                            <a
+                              className="portfolio-box"
+                              href="https://carlincb.github.io/Password_Generator/"
+                              target="_blank" 
+                              title="Password Generator" rel="noreferrer"
+                            >
+                              <img
+                                className="img-fluid"
+                                src="assets/images/resume4.png"
+                                alt="Password Generator"
+                              />
+                              <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">
+                                  Random Password Generator
+                                </div>
+                                <div className="project-name">Password Generator</div>
+                              </div>
+                            </a>
+                          </div>
+                          <div className="col-lg-4 col-sm-6">
+                            <a
+                              className="portfolio-box"
+                              href="https://carlincb.github.io/Weather_Dashboard/"
+                              target="_blank" 
+                              title="Weather Dashboard" rel="noreferrer"
+                            >
+                              <img
+                                className="img-fluid"
+                                src="assets/images/resume5.png"
+                                alt="Weather Dashboard"
+                              />
+                              <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">
+                                  Weather Forecaster
+                                </div>
+                                <div className="project-name">Weather Dashboard</div>
+                              </div>
+                            </a>
+                          </div>
+                          <div className="col-lg-4 col-sm-6">
+                            <a
+                              className="portfolio-box"
+                              href="https://blooming-ridge-32748.herokuapp.com/"
+                              target="_blank" 
+                              title="TripShare" rel="noreferrer"
+                            >
+                              <img
+                                className="img-fluid"
+                                src="assets/images/resume6.png"
+                                alt="TripShare"
+                              />
+                              <div className="portfolio-box-caption p-3">
+                                <div className="project-category text-white-50">
+                                  A Travel Blog
+                                </div>
+                                <div className="project-name">TripShare</div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
+  
                 <div className="resume-wrapper row jobs">
                   <div className="resume-section first col-lg-2 w-20 text-center font-weight-bold text-uppercase">
                     <h2 className="pt-4">Experience</h2>
