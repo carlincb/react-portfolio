@@ -158,7 +158,7 @@ function Resume() {
                             >
                               <img
                                 className="img-fluid"
-                                src="assets/images/resume1.png"
+                                src={process.env.PUBLIC_URL + "assets/images/resume1.png"}
                                 alt="Marvelisms"
                               />
                               <div className="portfolio-box-caption">

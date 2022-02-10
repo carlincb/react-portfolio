@@ -5,7 +5,7 @@ function Project({ name, description, tools, github, live, image }) {
   return (
     <div className="card-deck col-lg-3">
       <div className="card">
-        <img className="card-img-top p-1 imageCard" src={image} alt="Project" />
+        <img className="card-img-top p-1 imageCard" src={process.env.PUBLIC_URL + image} alt="Project" />
         <div className="card-body">
           <h5 className="card-title cardTitle"><strong>{name}</strong></h5>
           <p className="card-text text-muted">{description}</p>
