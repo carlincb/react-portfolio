@@ -84,6 +84,11 @@ Please see below for examples of this application's usage:
 ## Credits
 
 - https://www.youtube.com/watch?v=hQAHSlTtcmY
+- https://startbootstrap.com/
+- https://sampleresumetemplate.net/ 
+- https://www.figma.com/
+- https://www.youtube.com/watch?v=W8OVkAVfAvE
+- https://www.designify.com/
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## License

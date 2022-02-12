@@ -95,12 +95,10 @@ function Resume() {
 
                     <div className="skills">
                       <h2 className="skills-color pt-4">
-                        <i className="fas fa-user-friends resume-i"></i> Project
-                        Direction
+                        <i className="fas fa-user-friends resume-i"></i> Management
                       </h2>
                       <p className="d-flex justify-content-start pSkills">
-                        Proven ability to lead and manage a wide variety of
-                        projects in team and independent situations.
+                      Experienced leader with the capacity to manage and administer a broad range of initiatives.
                       </p>
                     </div>
                   </div>
