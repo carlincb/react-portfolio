@@ -186,11 +186,9 @@ function Resume() {
                               />
                               <div className="portfolio-box-caption">
                                 <div className="project-category text-white-50">
-                                  A Tech Blog
+                                  An Ecommerce Site
                                 </div>
-                                <div className="project-name">
-                                  MVC Tech Blog
-                                </div>
+                                <div className="project-name">Kintsugi</div>
                               </div>
                             </a>
                           </div>
