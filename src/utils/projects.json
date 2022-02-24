@@ -8,12 +8,12 @@
         "Tools": "JavaScript, jQuery, Bulma & Server-Side APIs."
     },
     {
-        "Name": "MVC Tech Blog",
-        "Image": "/assets/images/techblog.png",
-        "GitHub": "https://github.com/carlincb/MVC-Tech-Blog",
-        "Live": "https://fast-garden-22281.herokuapp.com/",
-        "Description": "A tech blog for users to share about the tech world.",
-        "Tools": "Node, Express, Sequelize, MySQL & Heroku."
+        "Name": "Kintsugi",
+        "Image": "/assets/images/kintsugi.png",
+        "GitHub": "https://github.com/carlincb/johnslist",
+        "Live": "https://the-kintsugi-app.herokuapp.com/",
+        "Description": "An ecommerce site for broken items.",
+        "Tools": "React, React Router DOM, Webpack, Heroku, MongoDB, Mongoose ODM, JWT, GraphQL, Node & Express."
     },
     {
         "Name": "Work Day Scheduler",
